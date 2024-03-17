@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97563A32BA6CC77002B08AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97563A22BA6CC77002B08AD /* AppDelegate.swift */; };
+		A97563A52BA6CC77002B08AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97563A42BA6CC77002B08AD /* ContentView.swift */; };
+		A97563A72BA6CC78002B08AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97563A62BA6CC78002B08AD /* Assets.xcassets */; };
+		A97563AA2BA6CC78002B08AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97563A92BA6CC78002B08AD /* Preview Assets.xcassets */; };
+		A97563B42BA6CC78002B08AD /* MapzinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97563B32BA6CC78002B08AD /* MapzinTests.swift */; };
+		A97563BE2BA6CC78002B08AD /* MapzinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97563BD2BA6CC78002B08AD /* MapzinUITests.swift */; };
+		A97563C02BA6CC78002B08AD /* MapzinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97563BF2BA6CC78002B08AD /* MapzinUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A97563B02BA6CC78002B08AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97563972BA6CC77002B08AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A975639E2BA6CC77002B08AD;
+			remoteInfo = Mapzin;
+		};
+		A97563BA2BA6CC78002B08AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97563972BA6CC77002B08AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A975639E2BA6CC77002B08AD;
+			remoteInfo = Mapzin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A975639F2BA6CC77002B08AD /* Mapzin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapzin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97563A22BA6CC77002B08AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A97563A42BA6CC77002B08AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A97563A62BA6CC78002B08AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97563A92BA6CC78002B08AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A97563AF2BA6CC78002B08AD /* MapzinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapzinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97563B32BA6CC78002B08AD /* MapzinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapzinTests.swift; sourceTree = "<group>"; };
+		A97563B92BA6CC78002B08AD /* MapzinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapzinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97563BD2BA6CC78002B08AD /* MapzinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapzinUITests.swift; sourceTree = "<group>"; };
+		A97563BF2BA6CC78002B08AD /* MapzinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapzinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A975639C2BA6CC77002B08AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97563AC2BA6CC78002B08AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97563B62BA6CC78002B08AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A97563962BA6CC77002B08AD = {
+			isa = PBXGroup;
+			children = (
+				A97563A12BA6CC77002B08AD /* Mapzin */,
+				A97563B22BA6CC78002B08AD /* MapzinTests */,
+				A97563BC2BA6CC78002B08AD /* MapzinUITests */,
+				A97563A02BA6CC77002B08AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A97563A02BA6CC77002B08AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A975639F2BA6CC77002B08AD /* Mapzin.app */,
+				A97563AF2BA6CC78002B08AD /* MapzinTests.xctest */,
+				A97563B92BA6CC78002B08AD /* MapzinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A97563A12BA6CC77002B08AD /* Mapzin */ = {
+			isa = PBXGroup;
+			children = (
+				A97563A22BA6CC77002B08AD /* AppDelegate.swift */,
+				A97563A42BA6CC77002B08AD /* ContentView.swift */,
+				A97563A62BA6CC78002B08AD /* Assets.xcassets */,
+				A97563A82BA6CC78002B08AD /* Preview Content */,
+			);
+			path = Mapzin;
+			sourceTree = "<group>";
+		};
+		A97563A82BA6CC78002B08AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A97563A92BA6CC78002B08AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A97563B22BA6CC78002B08AD /* MapzinTests */ = {
+			isa = PBXGroup;
+			children = (
+				A97563B32BA6CC78002B08AD /* MapzinTests.swift */,
+			);
+			path = MapzinTests;
+			sourceTree = "<group>";
+		};
+		A97563BC2BA6CC78002B08AD /* MapzinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A97563BD2BA6CC78002B08AD /* MapzinUITests.swift */,
+				A97563BF2BA6CC78002B08AD /* MapzinUITestsLaunchTests.swift */,
+			);
+			path = MapzinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A975639E2BA6CC77002B08AD /* Mapzin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97563C32BA6CC78002B08AD /* Build configuration list for PBXNativeTarget "Mapzin" */;
+			buildPhases = (
+				A975639B2BA6CC77002B08AD /* Sources */,
+				A975639C2BA6CC77002B08AD /* Frameworks */,
+				A975639D2BA6CC77002B08AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mapzin;
+			productName = Mapzin;
+			productReference = A975639F2BA6CC77002B08AD /* Mapzin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A97563AE2BA6CC78002B08AD /* MapzinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97563C62BA6CC78002B08AD /* Build configuration list for PBXNativeTarget "MapzinTests" */;
+			buildPhases = (
+				A97563AB2BA6CC78002B08AD /* Sources */,
+				A97563AC2BA6CC78002B08AD /* Frameworks */,
+				A97563AD2BA6CC78002B08AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97563B12BA6CC78002B08AD /* PBXTargetDependency */,
+			);
+			name = MapzinTests;
+			productName = MapzinTests;
+			productReference = A97563AF2BA6CC78002B08AD /* MapzinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A97563B82BA6CC78002B08AD /* MapzinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97563C92BA6CC78002B08AD /* Build configuration list for PBXNativeTarget "MapzinUITests" */;
+			buildPhases = (
+				A97563B52BA6CC78002B08AD /* Sources */,
+				A97563B62BA6CC78002B08AD /* Frameworks */,
+				A97563B72BA6CC78002B08AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97563BB2BA6CC78002B08AD /* PBXTargetDependency */,
+			);
+			name = MapzinUITests;
+			productName = MapzinUITests;
+			productReference = A97563B92BA6CC78002B08AD /* MapzinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97563972BA6CC77002B08AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A975639E2BA6CC77002B08AD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A97563AE2BA6CC78002B08AD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A975639E2BA6CC77002B08AD;
+					};
+					A97563B82BA6CC78002B08AD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A975639E2BA6CC77002B08AD;
+					};
+				};
+			};
+			buildConfigurationList = A975639A2BA6CC77002B08AD /* Build configuration list for PBXProject "Mapzin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A97563962BA6CC77002B08AD;
+			productRefGroup = A97563A02BA6CC77002B08AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A975639E2BA6CC77002B08AD /* Mapzin */,
+				A97563AE2BA6CC78002B08AD /* MapzinTests */,
+				A97563B82BA6CC78002B08AD /* MapzinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A975639D2BA6CC77002B08AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97563AA2BA6CC78002B08AD /* Preview Assets.xcassets in Resources */,
+				A97563A72BA6CC78002B08AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97563AD2BA6CC78002B08AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97563B72BA6CC78002B08AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A975639B2BA6CC77002B08AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97563A52BA6CC77002B08AD /* ContentView.swift in Sources */,
+				A97563A32BA6CC77002B08AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97563AB2BA6CC78002B08AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97563B42BA6CC78002B08AD /* MapzinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97563B52BA6CC78002B08AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97563BE2BA6CC78002B08AD /* MapzinUITests.swift in Sources */,
+				A97563C02BA6CC78002B08AD /* MapzinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A97563B12BA6CC78002B08AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A975639E2BA6CC77002B08AD /* Mapzin */;
+			targetProxy = A97563B02BA6CC78002B08AD /* PBXContainerItemProxy */;
+		};
+		A97563BB2BA6CC78002B08AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A975639E2BA6CC77002B08AD /* Mapzin */;
+			targetProxy = A97563BA2BA6CC78002B08AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A97563C12BA6CC78002B08AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A97563C22BA6CC78002B08AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A97563C42BA6CC78002B08AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mapzin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amir.malamud.Mapzin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A97563C52BA6CC78002B08AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mapzin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amir.malamud.Mapzin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A97563C72BA6CC78002B08AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amir.malamud.MapzinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mapzin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mapzin";
+			};
+			name = Debug;
+		};
+		A97563C82BA6CC78002B08AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amir.malamud.MapzinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mapzin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mapzin";
+			};
+			name = Release;
+		};
+		A97563CA2BA6CC78002B08AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amir.malamud.MapzinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mapzin;
+			};
+			name = Debug;
+		};
+		A97563CB2BA6CC78002B08AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amir.malamud.MapzinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mapzin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A975639A2BA6CC77002B08AD /* Build configuration list for PBXProject "Mapzin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97563C12BA6CC78002B08AD /* Debug */,
+				A97563C22BA6CC78002B08AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97563C32BA6CC78002B08AD /* Build configuration list for PBXNativeTarget "Mapzin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97563C42BA6CC78002B08AD /* Debug */,
+				A97563C52BA6CC78002B08AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97563C62BA6CC78002B08AD /* Build configuration list for PBXNativeTarget "MapzinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97563C72BA6CC78002B08AD /* Debug */,
+				A97563C82BA6CC78002B08AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97563C92BA6CC78002B08AD /* Build configuration list for PBXNativeTarget "MapzinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97563CA2BA6CC78002B08AD /* Debug */,
+				A97563CB2BA6CC78002B08AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A97563972BA6CC77002B08AD /* Project object */;
+}
